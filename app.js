@@ -9,7 +9,7 @@ const nameInput = document.getElementById("name");
 const startButton = document.getElementById("start");
 const restartButton = document.getElementById("restart");
 const leaderboardElement = document.getElementById("leaderboard");
-
+//Initializing
 let currentQuestion = 0;
 let score = 0;
 let playerName = "";
