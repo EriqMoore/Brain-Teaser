@@ -1154,6 +1154,9 @@ html main #quiz-container ul {
   padding: 0;
 }
 html main #quiz-container ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 300px;
   height: 50px;
   padding: 1rem;
@@ -1174,6 +1177,10 @@ html main #quiz-container ul li:hover {
   html main #quiz-container ul li {
     width: 550px;
   }
+}
+html main #quiz-container #score, html main #quiz-container #counter {
+  color: #AF9164;
+  font-weight: 600;
 }
 html main #name-container {
   display: flex;
