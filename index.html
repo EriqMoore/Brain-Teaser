@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Quiz with Leaderboard</title>
+    <style>
+      #ld {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="title">
+
+      <h1 id="title-text">Quiz<br>Game</h1>
+      </div>
+      <div id="name-container">
+        <input type="text" id="name" placeholder="Name" required>
+          <!-- Added Start Button -->
+        <button id="start">Start Quiz</button>
+      </div>
+         <!-- Added Leaderboard -->
+      <h2 id="ld">Leaderboard</h2>
+      <ol id="leaderboard"></ol>
+        <!-- Added restart button -->
+      <button id="restart" style="display: none">Restart Quiz</button>
+      <div id="quiz-container">
+        <p id="question"></p>
+         <!-- Added choices -->
+        <ul id="choices"></ul>
+        <p id="score"></p>
+        <!-- Added score element -->
+        <p id="counter"></p>
+        <!-- Added counter element -->
+      </div>
+    </main>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/he@1.2.0/he.js"></script>
+  </body>
+</html>
