@@ -695,7 +695,9 @@ a:focus {
 }
 a:hover, a:active {
   outline: 0;
-} /* Forms
+} 
+
+/* Forms
 --------------------------------------------- */
 button,
 input[type=button],
@@ -1056,6 +1058,10 @@ textarea {
   margin-bottom: 1.5em;
 }
 
+#title-text{
+  text-align: center;
+}
+
 /* Pages
 --------------------------------------------- */
 html main {
@@ -1241,3 +1247,5 @@ html main #name-container button:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
