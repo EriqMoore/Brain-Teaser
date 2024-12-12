@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
     <title>Brain Teaser</title>
-    <style>
-        /* */
-        #ld {
-            display: none;
-        }
-            
-    </style>
 </head>
 <body>
     <main>
+        <div class="container">
         <header>
+            
             <h1 id="title-text">Quiz Game</h1>
         </header>
         <section id="name-container">
-            <input type="text" id="name" placeholder="Name" aria-label="Name" required>
-            <button id="start">Start Quiz</button>
+            <input type="text" id="name" placeholder="Your Genius Name" aria-label="Name" required>
+            <button id="start">Ignite Your Mind!</button>
+            <div id="quote">
+                <p>iheafgouihouh0iugrehj0i9ugerjh0i</p>
+
+            </div>
         </section>
+    
         <section id="leaderboard-section" aria-hidden="true">
             <h2 id="ld">Leaderboard</h2>
             <ol id="leaderboard"></ol>
@@ -33,6 +33,7 @@
             <ul id="choices" role="list"></ul>
             <p id="score"></p>
         </section>
+    </div>
     </main>
     <script src="app.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/he@1.2.0/he.js" defer></script>

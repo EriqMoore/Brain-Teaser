@@ -1,6 +1,7 @@
 // Variables
 const quizTitle = document.getElementById("title")
 const quizTT = document.getElementById("title-text")
+const quoteElement = document.getElementById("quote")
 const quizContainer = document.getElementById("quiz-container");
 const questionElement = document.getElementById("question");
 const choicesElement = document.getElementById("choices");
@@ -57,10 +58,6 @@ function formatQuizData(data) {
 
   return formattedData;
 }
-//Change Layout
-function changeLayout(){
-
-}
 
   // Start quiz
 startButton.addEventListener("click", async () => {
@@ -86,10 +83,14 @@ startButton.addEventListener("click", async () => {
 // Display question
 function displayQuestion() {
   const { question, choices } = quizData[currentQuestion];
+  questionElement.style.display = 'block'
   questionElement.textContent = question;
   choicesElement.innerHTML = choices.map((choice, index) => `<li onclick="checkAnswer(${index})">${choice}</li>`).join("");
+  scoreElement.style.display = 'block';
   scoreElement.textContent = `Score: ${score}/${quizData.length}`;
+  counterElement.style.display = 'block'
   counterElement.textContent = `Question ${currentQuestion + 1}/${quizData.length}`;
+  
 }
 
 
