@@ -75,7 +75,6 @@ startButton.addEventListener("click", async () => {
     currentQuestion = 0;
     score = 0;
     displayQuestion();
-    changeLayout();
   }
 });
 
