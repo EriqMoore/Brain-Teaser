@@ -52,6 +52,7 @@ a:focus {
   color: transparent;
   text-align: center;
   margin-bottom: 2rem;
+  letter-spacing: 2.5px;
 }
 
 /* Name container */
@@ -89,7 +90,6 @@ a:focus {
   padding: 1rem;
   font-size: 1rem;
   font-weight: bold;
-  text-transform: uppercase;
   color: #ffffff;
   background: linear-gradient(to right, #FBBF24, #EC4899);
   border: none;
