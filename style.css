@@ -16,12 +16,6 @@ body {
   align-items: center;
   padding: 1rem;
 }
-
-/* Typography */
-h1, h2, p, li, a, span, input, label, button {
-  font-weight: 400;
-}
-
 a {
   color: #ffffff;
   text-decoration: none;
@@ -124,12 +118,14 @@ a:focus {
   margin: 2rem auto;
   padding: 1rem;
   text-align: center;
+  font-weight: 600;
   background: linear-gradient(90deg, #b912e8ca, #ec57a2);
   border-radius: 1rem;
   animation: bounce 2s ease-in-out infinite;
 }
 
 .quote {
+  font-weight: 700 !important;
   font-style: italic;
   font-size: 1.1rem;
   color: #ffffff;
