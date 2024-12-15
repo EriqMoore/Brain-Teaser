@@ -43,6 +43,7 @@ A dynamic quiz application that fetches trivia questions from an API and allows 
 
 ## Live Link
 Feel free to check it out and let me know what you think!
+
 https://eriqmoore.github.io/Brain-Teaser/
 
 
