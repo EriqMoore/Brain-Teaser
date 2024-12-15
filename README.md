@@ -4,6 +4,7 @@
 ![Brain Teaser Project Image](image.png)
 
 ## Project Overview
+
 A dynamic quiz application that fetches trivia questions from an API and allows users to answer questions, track their score, and view a leaderboard. The app features a clean and responsive interface, with a name input form, question display, score tracking, and a leaderboard that shows top scores. The app also supports local storage for saving the leaderboard data.
 
 ## Features
