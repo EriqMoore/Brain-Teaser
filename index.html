@@ -3,39 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Brain Teaser</title>
 </head>
 <body>
     <main>
         <div class="container">
-        <header>
-            
-            <h1 id="title-text">Brain Teaser</h1>
-        </header>
-        <section id="name-container">
-            <input type="text" id="name" placeholder="Your Genius Name" aria-label="Name" required>
-            <button id="start">Ignite Your Mind!</button>
-            <div id="quote">
-                <p>iheafgouihouh0iugrehj0i9ugerjh0i</p>
+            <header class="quiz-title">
+                <h1 id="title-text">Brain Teaser</h1>
+            </header>
 
-            </div>
-        </section>
-        <section id="leaderboard-section" aria-hidden="true">
-            <h2 id="ld">Leaderboard</h2>
-            <ol id="leaderboard"></ol>
-            <button id="restart" style="display: none">Restart Quiz</button>
-        </section>
-        <section id="quiz-container">
-            <p id="counter"></p>
-            <p id="question"></p>
-            <ul id="choices" role="list"></ul>
-            <p id="score"></p>
-        </section>
-    </div>
+            <section id="name-container">
+                <input type="text" id="name" placeholder="Your Genius Name" required>
+                <button id="start">Ignite Your Mind!</button>
+                <div id="quote-container">
+                    <p class="quote-text">Ready to challenge your mind? Enter your name and click "Ignite Your Mind!" to begin the ultimate brain teaser!</p>
+                </div>
+            </section>
+
+            <section id="leaderboard-section" aria-hidden="true">
+                <h2 id="leaderboard-title">Leaderboard</h2>
+                <ol id="leaderboard"></ol>
+                <button id="restart" style="display: none">Restart Quiz</button>
+            </section>
+
+            <section id="quiz-container">
+                <p id="counter"></p>
+                <p id="question"></p>
+                <ul id="choices"></ul>
+                <p id="score"></p>
+            </section>
+        </div>
     </main>
+
     <script src="app.js" defer></script>
-    <!--For Encoding-->
     <script src="https://cdn.jsdelivr.net/npm/he@1.2.0/he.js" defer></script>
 </body>
 </html>
